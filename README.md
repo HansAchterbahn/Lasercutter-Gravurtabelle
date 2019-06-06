@@ -4,7 +4,7 @@
 
 Dieses Repo enthält Tabellen, welche genutzt werden können, um die Gravurleistung von Schneidlasern festzustellen. Wie man im nachfolgenden Bild erkennen kann beinhaltet jede Zelle der Tabelle ein Kästchen, dem eine Laserleistung und eine Fahrtgeschwindigkeit zugeordnet ist.
 
-![Gravurtabelle SVG Vektorgrafik](Gravurtabelle-Bsp.svg)
+![Gravurtabelle SVG Vektorgrafik](Doku/Gravurtabelle-SVG.png)
 
 ## RDWorks
 
@@ -14,7 +14,7 @@ Die Gravurtabellen wurden für das Programm RDWorks im RLD Format angelegt. Da R
 
 Die Dateien für die verschiedenen Gravurtabellen liegen in jeweils einem Ordner. Aktuell sind zwei Gravurtabellen verfügbar.
 
-**30-150:** Eine Tabelle mit 30 - 150 mm/s Verfahrgeschwindigkeit und 12 - 70 % Laserleistung
+**30-150:** Eine Tabelle mit 30 - 150 mm/s Verfahrgeschwindigkeit und 12 - 70 % Laserleistung  
 **90-450:** Eine Tabelle mit 90 - 450 mm/s Verfahrgeschwindigkeit und 12 - 70 % Laserleistung
 
 In diesen Tabellenordnern befinden sich jeweils zwei Unterordner: Inkscape (Rohdaten) und RDWorks (Produktionsdaten).
@@ -23,8 +23,8 @@ In diesen Tabellenordnern befinden sich jeweils zwei Unterordner: Inkscape (Rohd
 
 In diesem Ordner sind die Rohdaten, welche zum Entwurf der Tabelle verwendet wurden. Diese braucht man nur anfassen, wenn man selbst eine Tabelle mit anderen Werten anlegen möchte. Die Daten wurden mit Inkscape erstellt.
 
-**00-Gravurtabelle-Schrift.svg:** Das ist die Datei, die Ursprünglich zum Entwurf der Tabelle verwendet wurde.
-**01-Gravurtabelle-gepfadet,svg:** Das ist die Datei, in der alle Schriften von '00-Gravurtabelle-Schrift.svg' in Pfade umgewandelt worden sind. Das ist nötig, weil Schriften sonst nicht ins DFX Format exportiert werden können.
+**00-Gravurtabelle-Schrift.svg:** Das ist die Datei, die Ursprünglich zum Entwurf der Tabelle verwendet wurde.  
+**01-Gravurtabelle-gepfadet,svg:** Das ist die Datei, in der alle Schriften von '00-Gravurtabelle-Schrift.svg' in Pfade umgewandelt worden sind. Das ist nötig, weil Schriften sonst nicht ins DFX Format exportiert werden können.  
 **02-Gravurtabelle-gepfadet.dxf:** Diese Datei ist ein DFX (R14) Export der Datei '01-Gravurtabelle-gepfadet,svg'. DFX Dateien können in RDWorks importiert und weiterbearbeitet werden.
 
 ### RDWorks (Produktionsdaten)
@@ -40,5 +40,5 @@ Fertig!
 ## Ergebnis
 Das nachfolgende Bild zeigt die Gravurtabelle des Neotopia Schneidlasers vom 04.05.2019 auf 3 mm Sperrholzplatte.
 
-![Gravurtabelle des Neotopia Schneidlasers vom 04.05.2019](Gravurtabelle-Bsp.jpg)
+![Gravurtabelle des Neotopia Schneidlasers vom 04.05.2019 auf 3 mm Sperrholz](Doku/2019-05-04-Foto-Neotopia-Gravurtabelle-3mm-Sperrholz.jpg)
 
